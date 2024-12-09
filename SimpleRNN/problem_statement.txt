@@ -1,0 +1,12 @@
+E2E DL project using simple RNN
+Imdb dataset [Movie reviews dataset]
+i/p --> Text        o/p--> Sentiment reply
+Reviews             positive/ negative--> Simple RNN-->prediction-->training
+                                                            |
+                                                      deployment
+Steps for project
+Dataset --> Feature Engineering --> Simple RNN --> streamlit webapp--> deployment
+                                        |
+                                Embedding   Simple RNN
+                                layer
+to overcome overfitting problem word embedding is using.
